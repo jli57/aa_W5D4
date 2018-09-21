@@ -1,1 +1,25 @@
 /* PHASE 4: Footer */
+.footer {
+  background-color: #fff; 
+  width: 890px; 
+  margin: auto; 
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  height: 40px; 
+  border-bottom: 1px solid #ccc; 
+  border-left: 1px solid #ccc; 
+  border-right: 1px solid #ccc; 
+  padding-left: 10px; 
+  color: gray; 
+  font-size: 10px; 
+  /* box-sizing: border-box; */
+}
+
+.footer-nav { 
+  display: flex; 
+}
+
+.footer-nav li {
+  padding-right: 10px; 
+}
